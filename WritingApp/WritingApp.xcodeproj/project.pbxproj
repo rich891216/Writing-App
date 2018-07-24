@@ -13,7 +13,7 @@
 		706C7024210686890091D32C /* WritingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 706C7022210686890091D32C /* WritingApp.xcdatamodeld */; };
 		706C70262106868A0091D32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706C70252106868A0091D32C /* Assets.xcassets */; };
 		706C70292106868A0091D32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706C70272106868A0091D32C /* LaunchScreen.storyboard */; };
-		706C703721068EF50091D32C /* MyDocs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C703621068EF50091D32C /* MyDocs.swift */; };
+		706C703721068EF50091D32C /* MyDocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C703621068EF50091D32C /* MyDocsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		706C70252106868A0091D32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706C70282106868A0091D32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		706C702A2106868A0091D32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		706C703621068EF50091D32C /* MyDocs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDocs.swift; sourceTree = "<group>"; };
+		706C703621068EF50091D32C /* MyDocsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDocsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				706C701D210686890091D32C /* ViewController.swift */,
-				706C703621068EF50091D32C /* MyDocs.swift */,
+				706C703621068EF50091D32C /* MyDocsViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 			files = (
 				706C7024210686890091D32C /* WritingApp.xcdatamodeld in Sources */,
 				706C701E210686890091D32C /* ViewController.swift in Sources */,
-				706C703721068EF50091D32C /* MyDocs.swift in Sources */,
+				706C703721068EF50091D32C /* MyDocsViewController.swift in Sources */,
 				706C701C210686890091D32C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
