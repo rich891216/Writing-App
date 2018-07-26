@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706670EC2108EC6F00A81AEF /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706670EB2108EC6F00A81AEF /* CoreDataHelper.swift */; };
+		706670EE2108F2E600A81AEF /* DisplayNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706670ED2108F2E600A81AEF /* DisplayNoteViewController.swift */; };
+		706670F12109195E00A81AEF /* ListNotesTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706670F02109195E00A81AEF /* ListNotesTableViewCells.swift */; };
+		706670F4210A295700A81AEF /* Timers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706670F3210A295700A81AEF /* Timers.swift */; };
 		706C701C210686890091D32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C701B210686890091D32C /* AppDelegate.swift */; };
 		706C701E210686890091D32C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C701D210686890091D32C /* ViewController.swift */; };
 		706C7021210686890091D32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706C701F210686890091D32C /* Main.storyboard */; };
 		706C7024210686890091D32C /* WritingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 706C7022210686890091D32C /* WritingApp.xcdatamodeld */; };
 		706C70262106868A0091D32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706C70252106868A0091D32C /* Assets.xcassets */; };
 		706C70292106868A0091D32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706C70272106868A0091D32C /* LaunchScreen.storyboard */; };
-		706C703721068EF50091D32C /* MyDocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C703621068EF50091D32C /* MyDocsViewController.swift */; };
+		706C703721068EF50091D32C /* ListNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C703621068EF50091D32C /* ListNotesTableViewController.swift */; };
+		706C70402108E96A0091D32C /* Date+convertToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C703F2108E96A0091D32C /* Date+convertToString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		706670EB2108EC6F00A81AEF /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		706670ED2108F2E600A81AEF /* DisplayNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNoteViewController.swift; sourceTree = "<group>"; };
+		706670F02109195E00A81AEF /* ListNotesTableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewCells.swift; sourceTree = "<group>"; };
+		706670F3210A295700A81AEF /* Timers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timers.swift; sourceTree = "<group>"; };
 		706C7018210686890091D32C /* WritingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WritingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706C701B210686890091D32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		706C701D210686890091D32C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +34,8 @@
 		706C70252106868A0091D32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706C70282106868A0091D32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		706C702A2106868A0091D32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		706C703621068EF50091D32C /* MyDocsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDocsViewController.swift; sourceTree = "<group>"; };
+		706C703621068EF50091D32C /* ListNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewController.swift; sourceTree = "<group>"; };
+		706C703F2108E96A0091D32C /* Date+convertToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+convertToString.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		706670EF2109180B00A81AEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				706670F02109195E00A81AEF /* ListNotesTableViewCells.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		706670F2210A294600A81AEF /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				706670F3210A295700A81AEF /* Timers.swift */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
 		706C700F210686890091D32C = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +84,15 @@
 		706C701A210686890091D32C /* WritingApp */ = {
 			isa = PBXGroup;
 			children = (
+				706670F2210A294600A81AEF /* Timers */,
+				706670EF2109180B00A81AEF /* Views */,
+				706C703E2108E9350091D32C /* Extensions */,
+				706C703B2108E40E0091D32C /* Helpers */,
 				706C703221068A6D0091D32C /* Models */,
-				706C7031210688A40091D32C /* controllers */,
+				706C7031210688A40091D32C /* Controllers */,
 				706C7030210688890091D32C /* storyboards */,
-				706C701B210686890091D32C /* AppDelegate.swift */,
 				706C70252106868A0091D32C /* Assets.xcassets */,
-				706C702A2106868A0091D32C /* Info.plist */,
-				706C7022210686890091D32C /* WritingApp.xcdatamodeld */,
+				706C701B210686890091D32C /* AppDelegate.swift */,
 			);
 			path = WritingApp;
 			sourceTree = "<group>";
@@ -78,20 +106,39 @@
 			path = storyboards;
 			sourceTree = "<group>";
 		};
-		706C7031210688A40091D32C /* controllers */ = {
+		706C7031210688A40091D32C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				706C701D210686890091D32C /* ViewController.swift */,
-				706C703621068EF50091D32C /* MyDocsViewController.swift */,
+				706C703621068EF50091D32C /* ListNotesTableViewController.swift */,
+				706670ED2108F2E600A81AEF /* DisplayNoteViewController.swift */,
 			);
-			path = controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		706C703221068A6D0091D32C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				706C7022210686890091D32C /* WritingApp.xcdatamodeld */,
+				706C702A2106868A0091D32C /* Info.plist */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		706C703B2108E40E0091D32C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				706670EB2108EC6F00A81AEF /* CoreDataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		706C703E2108E9350091D32C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				706C703F2108E96A0091D32C /* Date+convertToString.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706670EC2108EC6F00A81AEF /* CoreDataHelper.swift in Sources */,
 				706C7024210686890091D32C /* WritingApp.xcdatamodeld in Sources */,
+				706670EE2108F2E600A81AEF /* DisplayNoteViewController.swift in Sources */,
+				706670F12109195E00A81AEF /* ListNotesTableViewCells.swift in Sources */,
 				706C701E210686890091D32C /* ViewController.swift in Sources */,
-				706C703721068EF50091D32C /* MyDocsViewController.swift in Sources */,
+				706C70402108E96A0091D32C /* Date+convertToString.swift in Sources */,
+				706C703721068EF50091D32C /* ListNotesTableViewController.swift in Sources */,
+				706670F4210A295700A81AEF /* Timers.swift in Sources */,
 				706C701C210686890091D32C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DP8BMLWL7;
-				INFOPLIST_FILE = WritingApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WritingApp/Models/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DP8BMLWL7;
-				INFOPLIST_FILE = WritingApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WritingApp/Models/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
